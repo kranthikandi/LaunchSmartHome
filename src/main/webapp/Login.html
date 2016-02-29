@@ -1,15 +1,10 @@
-
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
 <!DOCTYPE html>
 <html>
 <head>
 <title>My-Home.Tech</title>
 <link href="css/style.css" rel='stylesheet' type='text/css' />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script type="text/javascript" src="js/home.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="keywords" content="Alley Signup & Signin Form Tab Form,Login Forms,Sign up Forms,Registration Forms,News letter Forms,Elements"./>
@@ -29,55 +24,35 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 </head>
 <body>
 	<h1> My Home </h1>
-			
-<div class="main-content">
-	<div class="sap_tabs">	
-		 
-		<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
-		 
-			  <ul>
-			  	  <li class="resp-tab-item" aria-controls="tab_item-0" role="tab"><span>Sign up</span></li>
-				  <li class="resp-tab-item" aria-controls="tab_item-1" role="tab"><span>Sign in</span></li>
-				  
-			  </ul>		
-			  <!---->
-
-			<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
-				<div class="facts">
-					<!--login1-->
-					<div class="register">
-						<form>	
-							<input placeholder="Name" type="text" required="">
-							<input placeholder="Mobile Number" type="text" required="">	
-							<input placeholder="Email Address" type="text" required="">									
-							<input placeholder="Password" type="password" required="">	
-							<input placeholder="Confirm Password" type="password" required="">
-								<div class="sign-up">
-									<input type="submit" value="Create Account"/>
-								</div>
-						</form>
-					</div>
-				</div>
-			</div>	
-
-			<div class="tab-2 resp-tab-content" aria-labelledby="tab_item-1">
-				<div class="facts">
-					<div class="register">
-						<form action="Login.html" >										
-							<input placeholder="Email Address" class="mail" type="text" required="">									
-							<input placeholder="Password" class="lock" type="password" required="">										
-							<div class="sign-up">
-								<input type="submit" value="Sign in" />
-							</div>
-						</form>
-						<h3><a href="#"> Forgot Password</a></h3>
-					</div>
-				</div> 
-			</div> 			        					            	      
-			 	
-		</div>	
-		
-	</div>
+<div class="main-content columndiv">
+<div id="register" class="register">Registered Users</div><br>
+<div id="manage" class="manage">Manage</div><br>
+<div id="log" class="log">Logs</div><br>
+<div>Voice</div>
 </div>
+<div id="registerData" class="main-content datas">
+<div style="width: 20%; float:left">
+<div> <img src="images/Kranthi.jpg" alt="Kranthi" height="50" width="50"> </div><br>
+<div><p>Kranthi</p></div>
+</div>
+<div style="width: 80%; float:righ">
+<div> <img src="images/Ashok.jpg" alt="Ashok" height="50" width="50"> </div><br>
+<div><p>Ashok</p></div>
+</div>
+</div>
+<div id="managedata" class="main-content managedata datas2"><p>Profile</p>
+<div style="width: 20%; float:right"><input type="button" value="edit" style="background-color: #FF7F00;"></div><br>
+<div ><table style="width:100%; align:center">
+<tr><td align="left">Name</td><td align="left">Kranthi Kandi</td></tr>
+<tr><td align="left">Mobile No.</td><td align="left">3149526143</td></tr>
+<tr><td align="left">Email</td><td align="left">Kranthikumar.kandi@gmail.com</td></tr>
+</table></div></div>
+<div id="logdata" class="main-content datas3"><p>Call and message</p>
+<table>
+<thead><td>Phone No.</td><td>Date/Time</td><td>Action</td><td>Result</td><td>Length</td></thead>
+<tr><td>2818139565</td><td>02/28/2016 1.02 am</td><td>VoIP call</td><td>Connected</td><td>0:00:25</td></tr>
+<tr><td>3149526143</td><td>02/28/2016 9.30 am</td><td>VoIP call</td><td>Missed</td><td>0:00:16</td></tr>
+<tr><td>2818139565</td><td>02/28/2016 9.15 am</td><td>Phone call</td><td>Connected</td><td>0:00:12</td></tr>
+</table></div>
 </body>
 </html>
